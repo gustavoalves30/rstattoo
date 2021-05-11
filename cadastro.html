@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<link rel="stylesheet" type="text/css" href="estilotcc.css" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body id="corpo">
+	
+<a class="navbar-brand" href="index.php"><img src="img/seta.png" width="60"></a>
+ 
+  <div class="container">
+    <form action="cadastrausuario.php">
+ <p class="cadastre-se">cadastre-se</p>
+
+
+      <div class="form-group">
+        <label for="Name">Nome:</label>
+	
+	
+        <input type="Name" class="form-control" placeholder="Digitar seu nome" id="Nome">
+
+    <p></p>
+        <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="email" class="form-control" placeholder="Digite seu Endereço de email " id="Nome">
+
+    <p></p>
+      <div class="form-group">
+        <label for="psw">Senha:</label>
+        <input type="Password" class="form-control" placeholder="Digite sua senha" id="Password">
+
+
+
+      </div>
+      <div class="form-group">
+        <label for="date">Data De nascimento:</label>
+        <input type="date" class="form-control" placeholder="Digite sua Data de Nascimento" data-mask="00/00/0000" id="Nascimento">
+      </div>
+
+      <div class="form-group">
+        <label for="CPF">CPF (000.000-00)</label>
+        <input type="CPF" class="form-control" placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" id="CPF">
+      </div>
+
+
+      <div class="form-group">
+        <label for="RG">RG (00.000.000-0)</label>
+        <input type="RG" class="form-control" placeholder="Digite seu RG" pattern="\d{2}\.\d{3}\.\d{3}-\d{1}" id="RG">
+      </div>
+
+
+      <div class="form-group">
+        <label for="Endereco">Endereço:</label>
+        <input type="Endereco" class="form-control" placeholder="Digite seu Endereco" id="Endereco">
+      </div>
+
+      <p>Selecione o seu Sexo:</p>
+      <form>
+        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" CHECKED> Masculino
+        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op2"> Feminino
+        <INPUT TYPE="radio" NAME="OPCAO" VALUE="op3"> Outros
+      </form> 
+<p></p><p></p><p></p>
+       <div id="botaocad">
+      <button type="submit" class="botaocadastro">Cadastrar</button>
+    </div>
+    </form>
+  </div>
+</body>
+
+</html>

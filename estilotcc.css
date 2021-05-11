@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+/* perguntar pro braga
+
+como botar o botão no centro
+como deixar o formulário como queremos
+
+*/
+.rstatoo{
+  font-size: 200%;
+}
+
+/* --> Área da página de cadastro <--*/
+
+div.container {                            
+  background-color: white;
+  width: 30%;
+  margin-bottom: 10%;                        /*<-- fundo do formulário*/    
+  border-radius: 30px;
+  padding: 5%;
+}
+
+
+p.cadastre-se{
+  font-size: 200%;
+}
+
+button.botaocadastro  {
+  background-color:#980000;
+  border-radius: 10px;                      
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color:white;
+  
+}
+
+div#botaocad {
+  text-align: center;
+}
+ 
+body#corpo {
+  background-image: linear-gradient(to top,#666666 5%, #333333 50%, #980000 40%);
+  
+}
+
+body#corpocad{
+  background-image: linear-gradient(to top, #980000 60%,#ffff 40%);
+}
+
+
+button.botaopiercing{
+  background-color: #333333;
+  padding: 70px;
+  border-radius: 20px;
+  margin-right: 70px;
+  font-size: 30px;
+}
+
+button.botaopiercing :hover {
+   background-color:black;
+   opacity: 0.5;
+   
+}
+
+button.botaotatuagem{
+  background-color: #333333;
+  padding: 70px;
+  border-radius: 30px;
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+div#botao {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
